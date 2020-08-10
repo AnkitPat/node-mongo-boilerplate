@@ -1,8 +1,8 @@
 import { Request, Response, Router } from "express";
 import UsersService from "../classes/UsersService";
 import User from "../classes/User";
-import { RouteHandler, Get, Post } from "../decorators/RouteHandler";
-import Server from "../classes/Server";
+import { RouteHandler, Get, Post } from "../common/decorators/RouteHandler";
+import Server from "../common/classes/Server";
 
 @RouteHandler("/users")
 export class UsersRoute {

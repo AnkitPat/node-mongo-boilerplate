@@ -1,7 +1,6 @@
 {
-  "name": "typescript-nodejs-sample",
+  "name": "employee-api",
   "version": "1.0.0",
-  "description": "TypeScript NodeJS sample application",
   "main": "index.js",
   "dependencies": {
     "dotenv": "^5.0.0",
